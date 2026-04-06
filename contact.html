@@ -23,15 +23,24 @@
 
   <p><strong>Phone:</strong> 072 674 5020</p>
   <p><strong>Email:</strong> sovereignroofingsolutions@gmail.com</p>
-  <p><strong>TikTok:</strong> @sovereignroofingsolutions</p>
 
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message"></textarea>
+  <form action="https://formsubmit.co/sovereignroofingsolutions@gmail.com" method="POST">
+    
+    <!-- Disable captcha -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <!-- Redirect after submit -->
+    <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
     <button type="submit">Send Message</button>
   </form>
 </section>
+
+<a href="https://wa.me/27726745020" class="whatsapp" target="_blank">💬</a>
 
 </body>
 </html>

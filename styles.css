@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding: 15px 30px;
+}
+
+.logo {
+  color: gold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: gold;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8') center/cover;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: gold;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+/* PAGES */
+.page {
+  padding: 50px;
+}
+
+.services-list {
+  line-height: 2;
+}
+
+/* FORM */
+.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+}

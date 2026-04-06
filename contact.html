@@ -4,17 +4,20 @@
 <meta charset="UTF-8">
 <title>Contact - Sovereign Roofing</title>
 <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<nav>
-  <h2 class="logo">Sovereign Roofing</h2>
-  <div class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+<nav class="nav">
+  <div class="nav-container">
+    <img src="logo.png" class="logo-img">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </div>
 </nav>
 
@@ -25,12 +28,7 @@
   <p><strong>Email:</strong> sovereignroofingsolutions@gmail.com</p>
 
   <form action="https://formsubmit.co/sovereignroofingsolutions@gmail.com" method="POST">
-    
-    <!-- Disable captcha -->
     <input type="hidden" name="_captcha" value="false">
-
-    <!-- Redirect after submit -->
-    <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
 
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="email" name="email" placeholder="Your Email" required>
